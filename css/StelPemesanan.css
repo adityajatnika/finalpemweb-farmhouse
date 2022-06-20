@@ -1,0 +1,213 @@
+/*FONTS*/
+@font-face {
+  font-family: Poppins-Regular;
+  src: url('../fonts/poppins/Poppins-Regular.ttf'); 
+}
+
+@font-face {
+  font-family: Poppins-Medium;
+  src: url('../fonts/poppins/Poppins-Medium.ttf'); 
+}
+
+@font-face {
+  font-family: Poppins-Bold;
+  src: url('../fonts/poppins/Poppins-Bold.ttf'); 
+}
+
+@font-face {
+  font-family: Poppins-SemiBold;
+  src: url('../fonts/poppins/Poppins-SemiBold.ttf'); 
+}
+
+@font-face {
+  font-family: Montserrat-Bold;
+  src: url('../fonts/montserrat/Montserrat-Bold.ttf'); 
+}
+
+/*DEFAULT*/
+
+body, html {
+    height: 100%;
+    font-family: Poppins-Regular, sans-serif;
+}
+
+/*---------------------------------------------*/
+a {
+    font-family: Poppins-Regular;
+    font-size: 14px;
+    line-height: 1.7;
+    color: #666666;
+    margin: 0px;
+    transition: all 0.4s;
+    -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+}
+a:focus {
+    outline: none !important;
+}
+
+a:hover {
+    text-decoration: none;
+  color: #333333;
+}
+
+p {
+    font-family: Poppins-Regular;
+    font-size: 14px;
+    line-height: 1.7;
+    color: #666666;
+    margin: 0px;
+}
+
+/*Spesific css*/
+
+body{
+    height: 100%;
+    font-family: Poppins-Regular, sans-serif;
+}
+
+.container-pesan{
+    width: 100%;
+    min-height: 100vh;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    background-image: url("../images/bgImg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container-pemesanan{
+    background: white;
+    width:950px;
+    height:auto;
+    padding:10px;
+    position: relative;
+    margin: 30px auto;
+    border-radius: 5px;
+    clear: both;
+}
+
+.input-form{
+    width:95%;
+    background:#E9ECEB;
+    margin:0.9%;
+    padding:10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.input-form-number{
+    background:#E9ECEB;
+    width:12%;
+    margin:1%;
+    padding:15px;
+    border: none;
+    border-radius: 10px;
+}
+
+.input-form-value{
+    background:#E9ECEB;
+    width:57.5%;
+    margin:1%;
+    padding:15px;
+    border: none;
+    border-radius: 10px;
+}
+
+.Batal{
+    position: relative;
+    color:white;
+    background: #FF0000;
+    font-weight: bold;
+    border:none;
+    border-radius:10px;
+    padding:15px;
+    margin:10px;
+    width: 75%;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.Bayar{
+    position: relative;
+    color:white;
+    background: #008800;
+    font-weight: bold;
+    border:none;
+    border-radius:10px;
+    padding:15px;
+    margin:10px;
+    width: 75%;
+    cursor: pointer;
+}
+
+.Bayar:hover{
+    background:#00FF00;
+}
+
+.Batal:hover{
+    background: #FF1493;
+}
+
+table {
+    margin-top: 5px;
+    border-collapse: collapse;
+    width: 100%;
+    border: 3px solid #ddd;
+}
+
+th, td {
+    background: white;
+}
+
+th:hover {
+    border: 3px solid #68a2ff;
+}
+
+th{
+    border: 3px solid #F4F4F4;
+}
+
+#cetak{
+    background:#E9ECEB;
+    width:57.5%;
+    margin:1%;
+    padding:15px;
+    border: none;
+    border-radius: 10px;
+}
+
+@media only screen and (max-width: 700px) {
+    .container{
+        width:80%;
+        left:6%;
+    }
+    .input-form-value{
+        width:49%;
+    }
+}
+
+/*Dekstop*/
+@media (min-width: 1200px){
+
+}
+
+
+/*Tablet*/
+@media (min-width: 768px){
+    p {
+        font-family: Poppins-Regular;
+        font-size: 10px;
+        line-height: 1.2;
+        color: #666666;
+        margin: 0px;
+    }
+
+}

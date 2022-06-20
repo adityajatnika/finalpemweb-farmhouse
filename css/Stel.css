@@ -1,0 +1,134 @@
+/*FONTS*/
+@font-face {
+  font-family: Poppins-Regular;
+  src: url('../fonts/poppins/Poppins-Regular.ttf'); 
+}
+
+@font-face {
+  font-family: Poppins-Medium;
+  src: url('../fonts/poppins/Poppins-Medium.ttf'); 
+}
+
+@font-face {
+  font-family: Poppins-Bold;
+  src: url('../fonts/poppins/Poppins-Bold.ttf'); 
+}
+
+@font-face {
+  font-family: Poppins-SemiBold;
+  src: url('../fonts/poppins/Poppins-SemiBold.ttf'); 
+}
+
+@font-face {
+  font-family: Montserrat-Bold;
+  src: url('../fonts/montserrat/Montserrat-Bold.ttf'); 
+}
+
+/*DEFAULT*/
+
+body, html {
+    height: 100%;
+    font-family: Poppins-Regular, sans-serif;
+}
+
+body{
+    height: 100%;
+    font-family: Poppins-Regular, sans-serif;
+}
+
+/*---------------------------------------------*/
+a {
+    font-family: Poppins-Regular;
+    font-size: 14px;
+    line-height: 1.7;
+    color: #666666;
+    margin: 0px;
+    transition: all 0.4s;
+    -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+}
+a:focus {
+  outline: none !important;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #333333;
+}
+
+p {
+    font-family: Poppins-Regular;
+    font-size: 14px;
+    line-height: 1.7;
+    color: #666666;
+    margin: 0px;
+}
+
+/*Spesific css*/
+body{
+    height: 100%;
+    font-family: Poppins-Regular, sans-serif;
+        background-image: url("../images/bgImg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.container-riwayat{
+    background: white;
+    width:950px;
+    height:auto;
+    padding:10px;
+    position: relative;
+    margin: 30px auto;
+    border-radius: 5px;
+    clear: both;
+}
+
+.container-riwa{
+    width: 100%;
+    /*min-height: 100vh;*/
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+
+}
+
+table {
+    margin-top: 5px;
+    border-collapse: collapse;
+    width: 100%;
+    border: 3px solid #ddd;
+}
+
+@media only screen and (max-width: 700px) {
+    .container{
+        width:80%;
+        left:6%;
+    }
+}
+
+/*Dekstop*/
+@media (min-width: 1200px){
+
+}
+
+
+/*Tablet*/
+@media (min-width: 768px){
+    p {
+        font-family: Poppins-Regular;
+        font-size: 10px;
+        line-height: 1.2;
+        color: #666666;
+        margin: 0px;
+    }
+
+}
